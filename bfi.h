@@ -1,8 +1,11 @@
+/* bfi.c - brainfuck értelmezõ, futtató
+ * 2013, gmb */
+
 #ifndef __BFI_H__
 #define __BFI_H__
 
-#include <conio.h>
-#include <string.h>
+#include <conio.h>	/* _getch(), _putch() */
+#include <string.h>	/* memset() */
 
 #define MEMSIZE	30000
 

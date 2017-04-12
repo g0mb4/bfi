@@ -1,3 +1,6 @@
+/* bfi.c - brainfuck értelmezõ, futtató
+ * 2013, gmb */
+
 #include "bfi.h"
 
 static unsigned char memory[MEMSIZE];

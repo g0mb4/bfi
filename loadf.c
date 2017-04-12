@@ -20,6 +20,8 @@ int loadf(const char *fname, char *program)
 
 	}while(c != EOF);
 
+	program[i] = '\0';
+
 	fclose(fp);
 
 	return i;

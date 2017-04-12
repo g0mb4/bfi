@@ -13,6 +13,7 @@ unsigned int getch10(void);
 
 void init_mem(void);
 void run(const char *program);
+void run_debug(const char *program, int instr);
 void do_work(unsigned char inst);
 
 #endif
